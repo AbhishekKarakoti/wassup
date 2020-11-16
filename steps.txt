@@ -1,0 +1,12 @@
+1. create express server
+2. server statict html file
+3.install and require socket.io
+4. create a io var by passing server to socket funtion()
+the way it works is tha socket.io is sitting on the server wating orclient/browser to make connection with the server
+basically server side endpoint
+
+5. out of two sockets(endpoint) one is in the app.js(server), the other needs to be the client so we will create another socket for static html file
+by including socket.io library by using cdn link
+
+6. then create a separate js file an in it 
+create another socket variable  and use io.connect on the local host;
