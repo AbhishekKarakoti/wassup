@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 940772f792731d9020da111f4db0f8402da80bf8
 const socket=io();
 
 const message=document.getElementById('message')
